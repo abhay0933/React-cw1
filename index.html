@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container"></div>
+
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+       let container = React.createElement("div",null, 
+       React.createElement("h1", null, "Learn Web Dev"),
+       React.createElement("p",  {style:{width: "50%"}}, "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis id suscipit ab iure inventore deserunt dolorem aspernatur, quisquam molestiae aperiam sapiente, minus saepe iusto ipsam voluptatibus sit sed facere dolor mollitia. Odit magni eius officiis necessitatibus et nostrum molestiae cum, dolorum sequi adipisci culpa similique harum laborum sunt sapiente voluptas recusandae perferendis ex accusamus commodi tenetur! Harum distinctio nam minus labore vel commodi, quod iure dignissimos blanditiis ad officiis, atque, officia in. Quaerat aperiam amet adipisci nisi ratione, optio doloremque ipsam ex nostrum dolor officia modi eum perspiciatis non asperiores culpa tenetur aliquid, dolores recusandae. Tempora error perspiciatis maiores!"),
+       React.createElement("p", {style:{width: "50%"}}, "Lorem, ipsum dolor sit amet consectetur adipisicing elit.", React.createElement('a', { href: 'https://example.com' }, 'Nemo facilis id suscipit ab iure inventore deserunt dolorem aspernatur,')),
+       React.createElement("p",  {style:{width: "50%"}}, "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis id suscipit ab iure inventore deserunt dolorem aspernatur, quisquam molestiae aperiam sapiente, minus saepe iusto ipsam voluptatibus sit sed facere dolor mollitia. Odit magni eius officiis necessitatibus et nostrum molestiae cum, dolorum sequi adipisci culpa similique harum laborum sunt sapiente voluptas recusandae perferendis ex accusamus commodi tenetur! Harum distinctio nam minus labore vel commodi, quod iure dignissimos blanditiis ad officiis, atque, officia in.")
+       
+       ) 
+    ReactDOM.render(container, document.getElementById("container"));
+    </script>
+  </body>
+</html>
